@@ -6,8 +6,8 @@ if array.length = 1
 elsif array.length = 2
     array.insert(-2,"and")
     string = array.join(" ")
-  
-  elsif array.length > 2
+
+  else array.length > 2
     array.insert(-2,"and")
     string = array.join(",")
   end
