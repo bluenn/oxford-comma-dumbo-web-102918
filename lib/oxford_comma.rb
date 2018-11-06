@@ -11,6 +11,6 @@ elsif array.length == 2
 
     # array.insert(-2,"and")
     string = array.join(", ")
-    string.insert(-1,"and")
+    string.insert(-2,"and")
   end
 end
