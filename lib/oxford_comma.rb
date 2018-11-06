@@ -9,6 +9,6 @@ elsif array.length == 2
 
   else array.length > 2
     array.insert(-2,"and")
-    string = array.join(",")
+    string = array.join(", ")
   end
 end
