@@ -8,8 +8,9 @@ elsif array.length == 2
     string = array.join(" ")
 
   else array.length > 2
-    string = array.to_sentence
+    
     # array.insert(-2,"and")
-    # string = array.join(", ")
+    string = array.join(", ")
+    string.insert(-1,"and")
   end
 end
